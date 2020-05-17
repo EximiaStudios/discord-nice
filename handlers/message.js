@@ -5,7 +5,7 @@ module.exports = async message => {
     if (message.system) return;
     if (ignoredChannel.includes(message.channel)) return;
 
-    const tagging = new RegExp("<(@(!|&|)|#|a{0,1}:\\w+:)\\d+>");
+    const tagging = new RegExp("<(@(!|&|)|#|a{0,1}:\\w+:)\\d+>+", "g");
     let userMessage = message.content.replace(tagging, " ");
 
     if (trigger.some(r => userMessage.includes(r))) {
