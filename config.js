@@ -6,6 +6,7 @@ module.exports = {
     // List of triggers
     trigger: [
         "69",
+        "６９",
         "sixty nine",
         "sixty-nine",
         "sixty 9",
@@ -15,6 +16,7 @@ module.exports = {
     response: [
         "Nice.",
         "Naisu.",
+        "ナイス",
         "𝕹𝖎𝖈𝖊.",
         "𝓝𝓲𝓬𝓮.",
         "𝒩𝒾𝒸𝑒.",
