@@ -7,10 +7,11 @@ module.exports = {
     trigger: [
         "69",
         "６９",
-        "sixty nine",
+        "sixty *nine",
         "sixty-nine",
         "sixty 9",
         "六十九",
+        "六九",
     ],
     // List of response (randomly chosen)
     response: [
